@@ -1,1 +1,55 @@
-<h1>pene</h1>
+<!DOCTYPE html>
+<html lang="es">
+    {% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Principal - Sistema de Gestión</title>
+    <link rel="stylesheet" href="{% static 'css/customindex.css' %}">
+</head>
+<body>
+    <header class="header">
+        <h1>Bienvenido al Sistema de Gestión</h1>
+        <p>Seleccione la funcionalidad que desea utilizar.</p>
+    </header>
+
+    <main class="dashboard">
+        <div class="card">
+            <h2>Gestión de Residentes</h2>
+            <p>Registrar, modificar o consultar información de residentes.</p>
+            <a href="{% url 'gestionResidentes' %}">
+                <button class="button">Ir a Gestión de Residentes</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <h2>Control de Medicación</h2>
+            <p>Verificar identidad y administrar medicamentos.</p>
+            <a href="#procedimiento-medicacion" class="button">Ir al Control de Medicación</a>
+        </div>
+
+        <div class="card">
+            <h2>Registro de Visitantes</h2>
+            <p>Registrar y gestionar visitas al recinto.</p>
+            <a href="#registro-visitantes" class="button">Ir a Registro de Visitantes</a>
+        </div>
+
+        <div class="card">
+            <h2>Control de Salidas</h2>
+            <p>Registrar y gestionar las salidas de residentes.</p>
+            <a href="#control-salidas" class="button">Ir a Control de Salidas</a>
+        </div>
+
+        <div class="card">
+            <h2>Gestión de Personal</h2>
+            <p>Registrar y asignar roles al personal del recinto.</p>
+            <a href="#registro-personal" class="button">Ir a Gestión de Personal</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Hogar de Reposo DIOXX_666. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

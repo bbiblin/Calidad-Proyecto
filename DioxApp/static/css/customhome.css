@@ -1,12 +1,11 @@
-/* FONTS IMPORTADAS */
 @font-face {
     font-family: 'HaltonFont';
-    src: url(fonts/HaltonFont.otf);
+    src: url(../fonts/HaltonFont.otf);
 }
 
 @font-face {
     font-family: 'PoppinsFont';
-    src: url(fonts/Poppins.ttf);
+    src: url(../fonts/Poppins.ttf);
 }
 
 /* PARA CENTRAR TEXTOS DEL NAVBAR*/
@@ -32,12 +31,11 @@
     padding-left: px;
 }
 
-/* FONDO */
 html, body {
     margin: 0;
     padding: 0;
     font-family: 'PoppinsFont';
-    background-image: url('img/img1.jpg'); /* Cambia por la ruta de tu imagen de fondo */
+    background-image: url("../img/img1.jpg"); /* Cambia por la ruta de tu imagen de fondo */
     background-size: cover;
 }
 

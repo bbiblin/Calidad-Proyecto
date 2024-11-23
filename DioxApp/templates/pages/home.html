@@ -1,13 +1,15 @@
-{% load static %}
+
 <!DOCTYPE html>
 <html lang="es">
+    {% load static %}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal Colaboradores - DIOX 666</title>
-    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/customhome.css' %}">
       {% include 'base/header.html' %}  
-
+      
+    
 </head>
 <body>
 
@@ -17,7 +19,7 @@
             </div>
             <input type="text" class="input-field" placeholder="Correo">
             <input type="password" class="input-field" placeholder="Contraseña">
-            <a href="pages/index.html">
+            <a href="{% url 'index' %}">
                 <button class="login-button">Ingresar</button>
             </a>
             <a href="#" class="forgot-password">¿Olvidaste tus credenciales? Haz click aquí</a>

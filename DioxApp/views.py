@@ -7,3 +7,6 @@ def home(request):
 
 def index(request):
     return render(request, "pages/index.html")
+
+def gestionResidentes(request):
+    return render(request, "pages/gestionResidentes.html")
