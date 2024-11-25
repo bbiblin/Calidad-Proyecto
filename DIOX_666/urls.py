@@ -24,5 +24,12 @@ urlpatterns = [
     path('',views.home, name="home"),
     path('index/',views.index, name="index"),
     path('gestionResidentes/',views.gestionResidentes, name="gestionResidentes"),
+    path('gestionSalidas/',views.gestionSalidas, name="gestionSalidas"),
+    path('gestionMedicamentos/',views.gestionMedicamentos, name="gestionMedicamentos"),
+    path('detalleMedicamentos/',views.detalleMedicamentos, name="detalleMedicamentos"),
+
+
+
+
 
 ]

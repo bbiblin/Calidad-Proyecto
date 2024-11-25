@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Residentes - DIOX 666</title>
+    <link rel="stylesheet" href="{% static 'css/customSalidas.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Gestión de Salidas</h1>
+    </nav>
+<section id="control-salidas" class="form-section">
+    <h2>Control de Salidas</h2>
+    <form>
+        <label for="lugar-destino">Lugar de Destino o Asunto:</label>
+        <input type="text" id="lugar-destino" name="lugar-destino" required>
+        
+        <label for="hora-salida">Hora de Salida:</label>
+        <input type="time" id="hora-salida" name="hora-salida" required>
+        
+        <label for="hora-llegada">Hora Aproximada de Llegada:</label>
+        <input type="time" id="hora-llegada" name="hora-llegada">
+        
+        <label for="nombre-acompanante">Nombre del Acompañante:</label>
+        <input type="text" id="nombre-acompanante" name="nombre-acompanante" required>
+        
+        <label for="contacto-acompanante">Contacto del Acompañante:</label>
+        <input type="text" id="contacto-acompanante" name="contacto-acompanante" required>
+        
+        <button type="submit">Registrar Salida</button>
+    </form>
+</body>
+
+</section>

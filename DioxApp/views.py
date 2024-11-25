@@ -10,3 +10,12 @@ def index(request):
 
 def gestionResidentes(request):
     return render(request, "pages/gestionResidentes.html")
+
+def gestionSalidas(request):
+    return render(request, "pages/gestionSalidas.html")
+
+def gestionMedicamentos(request):
+    return render(request, "pages/gestionMedicamentos.html")
+
+def detalleMedicamentos(request):
+    return render(request, "pages/detalleMedicamentos.html")

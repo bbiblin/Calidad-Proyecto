@@ -1,0 +1,62 @@
+/* Estilo general del cuerpo para añadir márgenes y mejorar la estética */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #800000;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Sección principal con margen en el lado izquierdo */
+.form-section {
+    margin: 40px 40px 40px 40px; /* Margen izquierdo de 40px */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezados */
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Etiquetas y campos de formulario */
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botón de registrar */
+form button {
+    background-color: #800000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #5c0909;
+}
